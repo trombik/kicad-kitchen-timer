@@ -37,7 +37,7 @@ setup()
 
     /* set the cursor position */
     lcd.setCursor(0, 0);
-    lcd.print("Hello world");
+    lcd.write("Hello world");
     delay(1000);
     lcd.clear();
     return;
@@ -87,5 +87,5 @@ loop()
     lcd.setCursor(0, 0);
 
     /* print the text on the display */
-    lcd.print(time_str);
+    lcd.write(time_str);
 }
